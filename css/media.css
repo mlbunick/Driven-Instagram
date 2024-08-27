@@ -1,0 +1,71 @@
+@media (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+
+    .conteudo {
+        padding: 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 614px){
+    .stories{
+        background: none;
+        border: none;
+        max-width: 100vw;
+        position: relative;
+    }
+
+    .conteudo{
+        margin-top: 54px;
+    }
+
+    .posts{
+        padding: 0;
+    }
+
+    .post{
+        width: 100vw;
+    }
+
+    .imagem-post{
+        height: 100%;
+    }
+
+    .itens-topo{
+        display: none;
+    }
+
+    .topo{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topo img{
+        padding: 0;
+    }
+
+    .barra-fixa-btt{
+        height: 54px;
+        width: 100vw;
+        padding: 0 18px;
+
+        background: #fff;
+        border-top: 1px solid #dbdbdb;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        
+        box-sizing: border-box;
+    }
+
+    .barra-fixa-btt ion-icon{
+        font-size: 22px;
+    }
+}
