@@ -40,6 +40,11 @@ body {
 .itens-topo {
     /* padding-right: 215px; */
     padding-right: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    transform-origin: center;
+    display: flex;
+    gap: 14px;
 }
 
 .itens-topo ion-icon {
@@ -47,7 +52,6 @@ body {
     height: 22px;
     gap: 0px;
     opacity: 0px;
-    padding-right: 20px;
 }
 
 .itens-topo ion-icon:last-of-type {
@@ -182,6 +186,12 @@ body {
     margin-right: 14px;
 }
 
+ion-icon:hover {
+    scale: 1.1;
+    cursor: pointer;
+    color: #ff3e5b;
+}
+
 .sidebar {
     display: flex;
     margin-left: 29px;
@@ -255,12 +265,27 @@ body {
 .seguir {
     font-family: Roboto;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 14.06px;
     text-align: right;
     color: #139EF2;
     position: relative;
     right: 0;
+}
+
+button,
+ion-icon{
+    transition: all 300ms;
+    outline: none;
+    border: none;
+    background: none;
+    transform-origin: center;
+}
+
+.seguir:hover{
+    scale: 0.95;
+    cursor: pointer;
+    color: #139EF2;
 }
 
 .img-sugestao {
